@@ -17,6 +17,7 @@ def main():
                             adventure=adventure,
                             thriller=thriller  )
 
+
 @app.route("/movie/<id>")
 def detail(id): 
     res = dbResultParam(movieDetail, id)
